@@ -2,9 +2,20 @@
 {
     internal class Program
     {
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World");
+            Console.WriteLine("Please enter a number: ");
+            string userNumber = Console.ReadLine();
+            // How do we parse in c#
+            // type.Parse(string stringWeAreTryingToConvert);
+            // casting is trying to turn something into a different related type
+            int convertedNumber = (int)5.4854;
+            // - 100 to 100
+            // -100.000000 to 100.0000
+
+            Console.WriteLine(convertedNumber + convertedNumber);
+
             
 
             // Loops
@@ -16,6 +27,28 @@
 
 
         } // Main
+
+        public static void DebuggingAndMethodExample()
+        {
+            Console.WriteLine("Greetings Class");
+            // Calling A Method
+            SayHello();
+            Console.WriteLine("Goodbye Class");
+            // Discussing Debugging
+            // Breakpoint
+
+        } // DebuggingAndMethodExample()
+
+        // Create a new method
+        public static void SayHello()
+        {
+            // cw tab is the shortcut for console writeline
+            Console.WriteLine("Hello, World");
+
+            VariableNotes();
+
+        }
+
 
         // To create a method
         // public static void Name()
