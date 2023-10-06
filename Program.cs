@@ -4,6 +4,23 @@
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello, World");
+            
+
+            // Loops
+            // Conditions
+            // Operations
+            // Arrays
+            // Scope
+            // Methods
+
+
+        } // Main
+
+        // To create a method
+        // public static void Name()
+        public static void VariableNotes()
+        {
             // Variables
             // C# is strongly typed language
             // we DECLARE the TYPE when we FIRST INITIALIZE
@@ -43,21 +60,12 @@
             // Paste is Ctrl + V
             // Cut is Ctrl + X
             // Undo is Ctrl + Z
+            // Save the current file is Ctrl + S
 
             string iWantToCutThisLine = "This Line";
 
 
-
-
-            // Loops
-            // Conditions
-            // Operations
-            // Arrays
-            // Scope
-            // Methods
-
-
-        } // Main
+        } // VariableNotes()
 
     } // class
 
